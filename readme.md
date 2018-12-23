@@ -1,14 +1,15 @@
 # PL/0 to IL compiler
 
-This is a course related practice project, and may never maintenance (
+This is a course related practice project, and may never maintenance :(
 
 For more information about PL/0,check out the page in [wikipedia](https://en.wikipedia.org/wiki/PL/0)
 
 
 ## Notice
 
-###input & output synatx
+### input & output synatx
 
+```
 
 statement = [ ident ":=" expression | "call" ident 
 
@@ -21,6 +22,7 @@ statement = [ ident ":=" expression | "call" ident
               | "if" condition "then" statement 
 							
               | "while" condition "do" statement ]. 
+```
 
 ### unimplemented
 							
